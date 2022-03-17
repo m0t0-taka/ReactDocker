@@ -1,5 +1,5 @@
 # dockerHubから持ってくるImageの指定
-FROM node:16.13.0-alpine3.12
+FROM node:16.10.0-alpine
 # 使用するnodeのバージョンの指定
 ENV NODE_VERSION 14.18.1
 # docker内に入った時の初期パスの指定
